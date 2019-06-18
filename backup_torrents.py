@@ -4,9 +4,9 @@
 import shutil
 from pathlib import Path
 
-ARIA_PATH = 'd:\\Downloads\\aria_downloads'
-DOWNLOAD_PATH = 'd:\\Downloads'
-OUTPUT_PATH = 'F:\\Torrents'
+ARIA_PATH = r'd:\Downloads\aria_downloads'
+DOWNLOAD_PATH = r'd:\Downloads'
+OUTPUT_PATH = r'F:\Torrents'
 
 if __name__ == "__main__":
     torrents = Path(DOWNLOAD_PATH).glob('*.torrent')

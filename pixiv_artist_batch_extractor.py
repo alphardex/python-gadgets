@@ -22,7 +22,8 @@ artist_id_map = {
     'hitsu': '671593',
     'ふわり': '9212166',
     'ﾌﾞﾚｴﾄﾞ': '72357',
-    'あれっくす': '585981'
+    'あれっくす': '585981',
+    'Bison倉鼠': '333556'
 }
 url_pattern = 'https://www.pixiv.net/member.php?id={artist_id}'
 
