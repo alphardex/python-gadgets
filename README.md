@@ -17,3 +17,5 @@
 - [pixiv_artist_batch_downloader](pixiv_artist_batch_downloader.py): 用wget批量下载抓取到的txt链接
 
 - [pixiv_artist_batch_extractor](pixiv_artist_batch_extractor.py): 配合油猴脚本Pxer自动抓取pixiv画师的所有作品链接，生成对应的txt
+
+- [word_count](word_count.py): 文件字数统计
