@@ -6,6 +6,8 @@
 
 - [batch_add_bango](batch_add_bango.py): 为所有md文件添加番号，适用于ppt展示
 
+- [case_reverse](case_reverse.py): 大小写互转，并自动复制进剪贴板
+
 - [css_to_xpath](css_to_xpath.py): 将css转换为xpath，并自动复制进剪贴板，配合Xpath Helper插件直接爬网页
 
 - [gen_index](gen_index.py): 用来自动生成这篇README.md
