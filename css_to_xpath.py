@@ -21,7 +21,7 @@ if __name__ == "__main__":
                 xpath = css2xpath(css)
                 window.FindElement('xpath').Update(xpath)
                 pyperclip.copy(xpath)
-            except:
+            except Exception:
                 pass
         else:
             break

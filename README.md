@@ -20,4 +20,6 @@
 
 - [pixiv_artist_batch_extractor](pixiv_artist_batch_extractor.py): 配合油猴脚本Pxer自动抓取pixiv画师的所有作品链接，生成对应的txt
 
+- [update_hosts](update_hosts.py): 抓取最新的hosts并覆盖掉原来的
+
 - [word_count](word_count.py): 文件字数统计

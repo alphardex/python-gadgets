@@ -4,12 +4,11 @@
 import shutil
 from pathlib import Path
 
-ARIA_PATH = r'd:\Downloads\aria_downloads'
 DOWNLOAD_PATH = r'd:\Downloads'
 OUTPUT_PATH = r'F:\Torrents'
 
 if __name__ == "__main__":
     torrents = Path(DOWNLOAD_PATH).glob('*.torrent')
     [shutil.move(str(torrent), OUTPUT_PATH) for torrent in torrents]
-    trashes = [*Path(ARIA_PATH).glob('*.aria2'), *Path(ARIA_PATH).glob('*.torrent')]
+    trashes = Path(DOWNLOAD_PATH).glob('*.aria2')
     [trash.unlink() for trash in trashes]

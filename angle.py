@@ -66,7 +66,6 @@ Test operator::
     Angle(21.0°, 13.0', 17.0'')
 """
 import abc
-import numbers
 from math import modf
 
 
