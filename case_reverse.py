@@ -6,10 +6,9 @@ import PySimpleGUI as sg
 
 layout = [[sg.Txt('origin'), sg.In(size=(30, 5), key='origin')],
           [sg.Txt('processed'), sg.In(size=(30, 5), key='processed')],
-          [sg.ReadButton('Convert', bind_return_key=True),sg.Cancel()]]
+          [sg.ReadButton('Convert', bind_return_key=True), sg.Cancel()]]
 
 case_reverse = lambda origin: origin.upper() if origin.islower() else origin.lower()
-
 
 if __name__ == "__main__":
     window = sg.Window('大小写互转').Layout(layout)

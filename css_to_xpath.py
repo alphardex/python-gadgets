@@ -6,10 +6,9 @@ import pyperclip
 import PySimpleGUI as sg
 from parsel import css2xpath
 
-layout = [[sg.Txt('css'), sg.In(size=(30, 5), key='css')],
-          [sg.Txt('xpath'), sg.In(size=(30, 5), key='xpath')],
-          [sg.ReadButton('Convert', bind_return_key=True),sg.Cancel()]]
-
+layout = [[sg.Txt('css'), sg.In(size=(30, 5), key='css')], [sg.Txt('xpath'),
+                                                            sg.In(size=(30, 5), key='xpath')],
+          [sg.ReadButton('Convert', bind_return_key=True), sg.Cancel()]]
 
 if __name__ == "__main__":
     window = sg.Window('css2xpath').Layout(layout)

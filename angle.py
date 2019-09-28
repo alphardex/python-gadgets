@@ -90,7 +90,6 @@ class Validated(abc.ABC, AutoStorage):
     @abc.abstractmethod
     def validate(self, instance, value):
         """Return validated values or raise ValueError"""
-
     def __set__(self, instance, value):
         self.validate(instance, value)
         super().__set__(instance, value)

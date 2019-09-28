@@ -27,12 +27,8 @@ artist_id_map = {
 }
 url_pattern = 'https://www.pixiv.net/member.php?id={artist_id}'
 
-layout = [[
-    sg.Multiline(
-        default_text=' '.join(artist_id_map.keys()),
-        key='artists',
-        size=(30, 20))
-], [sg.Submit(), sg.Cancel()]]
+layout = [[sg.Multiline(default_text=' '.join(artist_id_map.keys()), key='artists', size=(30, 20))],
+          [sg.Submit(), sg.Cancel()]]
 
 
 def start(task: tuple):
@@ -60,6 +56,5 @@ if __name__ == "__main__":
     if button == 'Submit':
         artists = values['artists'].strip().split(' ')
         artist_ids = [artist_id_map.get(artist) for artist in artists]
-        tasks = [(url_pattern.format(artist_id=id), artist)
-                 for id, artist in zip(artist_ids, artists)]
+        tasks = [(url_pattern.format(artist_id=id), artist) for id, artist in zip(artist_ids, artists)]
         [start(task) for task in tasks]
