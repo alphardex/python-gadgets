@@ -90,6 +90,7 @@ class Validated(abc.ABC, AutoStorage):
     @abc.abstractmethod
     def validate(self, instance, value):
         """Return validated values or raise ValueError"""
+
     def __set__(self, instance, value):
         self.validate(instance, value)
         super().__set__(instance, value)
@@ -97,6 +98,7 @@ class Validated(abc.ABC, AutoStorage):
 
 class Unit(Validated):
     """A unit whose number is >= 0"""
+
     def validate(self, instance, value):
         if value < 0:
             raise ValueError('value must be >= 0')

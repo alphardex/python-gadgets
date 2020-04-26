@@ -6,9 +6,15 @@
 
 - [batch_add_bango](batch_add_bango.py): 为所有md文件添加番号，适用于ppt展示
 
+- [batch_create_json](batch_create_json.py): 批量创建json文件
+
+- [batch_unzip](batch_unzip.py): 解压多个文件并删除压缩包
+
 - [case_reverse](case_reverse.py): 大小写互转，并自动复制进剪贴板
 
 - [codepen_love_ranker](codepen_love_ranker.py): 分析codepen上你所收藏的pen的排名
+
+- [css_template_generator](css_template_generator.py): 自动生成CSS项目文件
 
 - [css_to_xpath](css_to_xpath.py): 将css转换为xpath，并自动复制进剪贴板，配合Xpath Helper插件直接爬网页
 
@@ -22,6 +28,6 @@
 
 - [pixiv_artist_batch_extractor](pixiv_artist_batch_extractor.py): 配合油猴脚本Pxer自动抓取pixiv画师的所有作品链接，生成对应的txt
 
-- [update_hosts](update_hosts.py): 抓取最新的hosts并覆盖掉原来的
+- [url_batch_opener](url_batch_opener.py): 批量打开剪贴板里的链接
 
 - [word_count](word_count.py): 文件字数统计

@@ -6,4 +6,4 @@ Path('README.md').write_text('\n'.join([
     *['# 我的Python小程序\n'],
     *[f"- [{str(py)[:-3]}]({str(py)}): {open(py, encoding='utf-8').readlines()[1]}" for py in Path('.').glob('*.py')]
 ]),
-                             encoding='utf-8')
+    encoding='utf-8')

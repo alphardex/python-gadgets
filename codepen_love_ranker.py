@@ -30,4 +30,5 @@ def parse_json(path: Path):
 if __name__ == "__main__":
     for path in Path('.').glob('*.json'):
         total.extend(parse_json(path))
-    lt.save(total, name='codepen_loved.csv', sort_by='loves', order='desc', no_duplicate=True)
+    lt.save(total, name='codepen_loved.csv',
+            sort_by='loves', order='desc', no_duplicate=True)
