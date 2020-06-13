@@ -12,6 +12,8 @@
 
 - [case_reverse](case_reverse.py): 大小写互转，并自动复制进剪贴板
 
+- [clone_all_repo](clone_all_repo.py): 将用户的所有repo克隆到本地
+
 - [codepen_love_ranker](codepen_love_ranker.py): 分析codepen上你所收藏的pen的排名
 
 - [css_template_generator](css_template_generator.py): 自动生成CSS项目文件
