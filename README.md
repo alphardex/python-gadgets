@@ -8,6 +8,8 @@
 
 - [batch_change_remote](batch_change_remote.py): 批量把仓库改成GitHub源或Gitee源
 
+- [batch_convert_image](batch_convert_image.py): 批量转换图片格式
+
 - [batch_create_json](batch_create_json.py): 批量创建json文件
 
 - [batch_unzip](batch_unzip.py): 解压多个文件并删除压缩包
