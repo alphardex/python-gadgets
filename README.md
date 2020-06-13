@@ -6,6 +6,8 @@
 
 - [batch_add_bango](batch_add_bango.py): 为所有md文件添加番号，适用于ppt展示
 
+- [batch_change_remote](batch_change_remote.py): 批量把仓库改成GitHub源或Gitee源
+
 - [batch_create_json](batch_create_json.py): 批量创建json文件
 
 - [batch_unzip](batch_unzip.py): 解压多个文件并删除压缩包
