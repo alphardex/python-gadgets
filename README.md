@@ -4,19 +4,23 @@
 
 - [backup_torrents](backup_torrents.py): 将下载好的种子文件全部备份进Torrents文件夹里，并清理无用文件
 
-- [batch_add_bango](batch_add_bango.py): 为所有md文件添加番号，适用于ppt展示
-
 - [batch_change_remote](batch_change_remote.py): 批量把仓库改成GitHub源或Gitee源
+
+- [batch_clone_repo](batch_clone_repo.py): 将用户的所有repo克隆到本地
+
+- [batch_compress_image](batch_compress_image.py): 批量压缩图片
 
 - [batch_convert_image](batch_convert_image.py): 批量转换图片格式
 
 - [batch_create_json](batch_create_json.py): 批量创建json文件
 
+- [batch_merge_csv](batch_merge_csv.py): 合并多个csv文件
+
 - [batch_unzip](batch_unzip.py): 解压多个文件并删除压缩包
 
-- [case_reverse](case_reverse.py): 大小写互转，并自动复制进剪贴板
+- [batch_url_opener](batch_url_opener.py): 批量打开剪贴板里的链接
 
-- [clone_all_repo](clone_all_repo.py): 将用户的所有repo克隆到本地
+- [case_reverse](case_reverse.py): 大小写互转，并自动复制进剪贴板
 
 - [codepen_love_ranker](codepen_love_ranker.py): 分析codepen上你所收藏的pen的排名
 
@@ -26,14 +30,10 @@
 
 - [gen_index](gen_index.py): 用来自动生成这篇README.md
 
-- [merge_csvs](merge_csvs.py): 合并多个csv文件
-
 - [mouse_tracker](mouse_tracker.py): 追踪鼠标位置，用pyautogui自动化操作的时候自动记下坐标
 
 - [pixiv_artist_batch_downloader](pixiv_artist_batch_downloader.py): 用wget批量下载抓取到的txt链接
 
 - [pixiv_artist_batch_extractor](pixiv_artist_batch_extractor.py): 配合油猴脚本Pxer自动抓取pixiv画师的所有作品链接，生成对应的txt
-
-- [url_batch_opener](url_batch_opener.py): 批量打开剪贴板里的链接
 
 - [word_count](word_count.py): 文件字数统计
