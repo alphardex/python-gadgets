@@ -16,6 +16,8 @@
 
 - [batch_merge_csv](batch_merge_csv.py): 合并多个csv文件
 
+- [batch_pull_repo](batch_pull_repo.py): 批量更新仓库
+
 - [batch_unzip](batch_unzip.py): 解压多个文件并删除压缩包
 
 - [batch_url_opener](batch_url_opener.py): 批量打开剪贴板里的链接
@@ -24,9 +26,13 @@
 
 - [codepen_love_ranker](codepen_love_ranker.py): 分析codepen上你所收藏的pen的排名
 
+- [crop_half_pdf](crop_half_pdf.py): 将pdf的一页切成2部分
+
 - [css_template_generator](css_template_generator.py): 自动生成CSS项目文件
 
 - [css_to_xpath](css_to_xpath.py): 将css转换为xpath，并自动复制进剪贴板，配合Xpath Helper插件直接爬网页
+
+- [extract_pdf](extract_pdf.py): 从pdf中提取一定页数
 
 - [gen_index](gen_index.py): 用来自动生成这篇README.md
 
