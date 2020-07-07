@@ -14,6 +14,8 @@
 
 - [batch_create_json](batch_create_json.py): 批量创建json文件
 
+- [batch_crop_image](batch_crop_image.py): 批量裁剪图片的透明部分
+
 - [batch_merge_csv](batch_merge_csv.py): 合并多个csv文件
 
 - [batch_pull_repo](batch_pull_repo.py): 批量更新仓库
