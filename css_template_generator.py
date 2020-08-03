@@ -9,6 +9,7 @@ HTML_TEMPLATE = """<!DOCTYPE html>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@alphardex/aqua.css@1.5.0/dist/aqua.min.css" />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -20,6 +21,7 @@ CSS_TEMPLATE = """body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  background: hsl(240, 56%, 98%);
 }
 """
 Path('index.html').write_text(HTML_TEMPLATE)
