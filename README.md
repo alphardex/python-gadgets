@@ -44,4 +44,6 @@
 
 - [pixiv_artist_batch_extractor](pixiv_artist_batch_extractor.py): 配合油猴脚本Pxer自动抓取pixiv画师的所有作品链接，生成对应的txt
 
+- [swap_pdf_page](swap_pdf_page.py): 将pdf的第一页与最后一页互换
+
 - [word_count](word_count.py): 文件字数统计
