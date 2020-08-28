@@ -38,6 +38,8 @@
 
 - [gen_index](gen_index.py): 用来自动生成这篇README.md
 
+- [make_h5_launch_zip](make_h5_launch_zip.py): 制作H5上线压缩包
+
 - [mouse_tracker](mouse_tracker.py): 追踪鼠标位置，用pyautogui自动化操作的时候自动记下坐标
 
 - [pixiv_artist_batch_downloader](pixiv_artist_batch_downloader.py): 用wget批量下载抓取到的txt链接
