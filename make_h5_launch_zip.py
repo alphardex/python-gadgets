@@ -9,6 +9,7 @@ template_path = launch_path / 'template'
 html_files = list(Path('.').glob('*.html'))
 shutil.rmtree(launch_path, ignore_errors=True)
 shutil.copytree('css', launch_path / 'css')
+shutil.copytree('js', launch_path / 'js')
 shutil.copytree('images', launch_path / 'images')
 template_path.mkdir()
 [shutil.copy(html_file, template_path) for html_file in html_files]
