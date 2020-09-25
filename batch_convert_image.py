@@ -10,4 +10,4 @@ ext = 'png'
 images = [path for path in Path('.').glob(f'*.{src}')]
 for i, image in enumerate(images):
     im = Image.open(image)
-    im.save(f'{i}.{ext}', ext)
+    im.save(f'{str(image).split(".")[0]}.{ext}', ext)
