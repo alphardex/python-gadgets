@@ -9,7 +9,7 @@ HTML_TEMPLATE = """<!DOCTYPE html>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Document</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@alphardex/aqua.css@1.5.6/dist/aqua.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@alphardex/aqua.css@1.6.0/dist/aqua.min.css" />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
