@@ -20,6 +20,8 @@
 
 - [batch_pull_repo](batch_pull_repo.py): 批量更新仓库
 
+- [batch_push_repo](batch_push_repo.py): 批量更新仓库
+
 - [batch_unzip](batch_unzip.py): 解压多个文件并删除压缩包
 
 - [batch_url_opener](batch_url_opener.py): 批量打开剪贴板里的链接
@@ -38,7 +40,11 @@
 
 - [gen_index](gen_index.py): 用来自动生成这篇README.md
 
+- [html2docx](html2docx.py): 将HTML转为word，注意把源码的编码设为utf-8
+
 - [make_h5_launch_zip](make_h5_launch_zip.py): 制作H5上线压缩包
+
+- [merge_pdf](merge_pdf.py): 合并pdf
 
 - [mouse_tracker](mouse_tracker.py): 追踪鼠标位置，用pyautogui自动化操作的时候自动记下坐标
 
