@@ -16,6 +16,8 @@
 
 - [batch_crop_image](batch_crop_image.py): 批量裁剪图片的透明部分
 
+- [batch_gif_to_video](batch_gif_to_video.py): 批量将gif转为mp4
+
 - [batch_merge_csv](batch_merge_csv.py): 合并多个csv文件
 
 - [batch_pull_repo](batch_pull_repo.py): 批量更新仓库
