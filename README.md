@@ -20,6 +20,10 @@
 
 - [batch_merge_csv](batch_merge_csv.py): 合并多个csv文件
 
+- [batch_merge_image](batch_merge_image.py): 合并多个图片文件，常用于制作逐帧动画
+
+- [batch_print_name](batch_print_name.py): 批量打印文件名
+
 - [batch_pull_repo](batch_pull_repo.py): 批量更新仓库
 
 - [batch_push_repo](batch_push_repo.py): 批量更新仓库
@@ -53,6 +57,8 @@
 - [pixiv_artist_batch_downloader](pixiv_artist_batch_downloader.py): 用wget批量下载抓取到的txt链接
 
 - [pixiv_artist_batch_extractor](pixiv_artist_batch_extractor.py): 配合油猴脚本Pxer自动抓取pixiv画师的所有作品链接，生成对应的txt
+
+- [project_sum](project_sum.py): 
 
 - [swap_pdf_page](swap_pdf_page.py): 将pdf的第一页与最后一页互换
 
