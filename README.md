@@ -28,6 +28,8 @@
 
 - [batch_push_repo](batch_push_repo.py): 批量更新仓库
 
+- [batch_rename](batch_rename.py): 批量重命名
+
 - [batch_unzip](batch_unzip.py): 解压多个文件并删除压缩包
 
 - [batch_url_opener](batch_url_opener.py): 批量打开剪贴板里的链接
