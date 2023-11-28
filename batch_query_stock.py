@@ -3,7 +3,7 @@ import looter as lt
 import re
 from operator import itemgetter
 
-stockListStr = '1奥特佳，2江铃汽车，3联创电子，4均胜电子，5联发股份，6华胜天成，7顺纳股份，8中电兴发，9天娱数科，10世纪华通，11巨人网络，12维和民创，13北信源，14智度股份，15富临精工，16引新科技，17均胜电子'
+stockListStr = '1中远海能，2创业黑马，3锦鸡股份，4弘业电子，5旋极信息，6聚飞光电，7华鲲振宇，8华胜天成，9江洲智能，10完美世界，11智度股份，12科兰软件'
 
 stockList = [re.search(r"\D+", item).group(0) for item in stockListStr.split('，')]
 domain = 'https://www.baidu.com/'
