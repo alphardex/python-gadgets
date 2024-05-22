@@ -1,9 +1,6 @@
 """
 批量重命名
+ref: https://stackoverflow.com/a/7917798
 """
-from pathlib import Path
-
-INPUT_PATH = '.'
-total = [fname for fname in Path(INPUT_PATH).glob('*.png')]
-for i, fname in enumerate(total):
-    fname.rename(f'{i+1}.png')
+import os
+[os.rename(f,f.replace('.image', '.gif')) for f in os.listdir(".") if not f.startswith(".")]

@@ -1,3 +1,6 @@
+"""
+批量查询股票代码
+"""
 import asyncio
 import looter as lt
 import re
