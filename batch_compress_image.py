@@ -25,8 +25,8 @@ def compress_fixed_ratio():
         print(w, h)
         nw, nh = int(w/thumb_ratio), int(h/thumb_ratio)
         print(nw, nh)
-        thumbnail = im.resize((nw, nh), Image.ANTIALIAS)
+        thumbnail = im.resize((nw, nh), Image.Resampling.LANCZOS)
         thumbnail.save(image)
 
 
-compress_fixed_ratio()()
+compress_fixed_ratio()
