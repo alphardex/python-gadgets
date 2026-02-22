@@ -1,5 +1,5 @@
 """
-批量视频压缩
+批量从视频里提取音频
 """
 import subprocess
 import os

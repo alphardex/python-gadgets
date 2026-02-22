@@ -18,6 +18,8 @@
 
 - [batch_download_youtube](batch_download_youtube.py): 批量下载youtube链接
 
+- [batch_extract_audio_from_video](batch_extract_audio_from_video.py): 批量视频提取音频
+
 - [batch_gif_to_video](batch_gif_to_video.py): 批量将gif转为mp4
 
 - [batch_merge_csv](batch_merge_csv.py): 合并多个csv文件
@@ -39,8 +41,6 @@
 - [batch_unzip](batch_unzip.py): 解压多个文件并删除压缩包
 
 - [batch_url_opener](batch_url_opener.py): 批量打开剪贴板里的链接
-
-- [batch_video_compress](batch_video_compress.py): 批量视频压缩
 
 - [case_reverse](case_reverse.py): 大小写互转，并自动复制进剪贴板
 
