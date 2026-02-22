@@ -40,6 +40,8 @@
 
 - [batch_url_opener](batch_url_opener.py): 批量打开剪贴板里的链接
 
+- [batch_video_compress](batch_video_compress.py): 批量视频压缩
+
 - [case_reverse](case_reverse.py): 大小写互转，并自动复制进剪贴板
 
 - [codepen_love_ranker](codepen_love_ranker.py): 分析codepen上你所收藏的pen的排名
