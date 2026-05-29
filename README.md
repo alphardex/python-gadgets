@@ -18,7 +18,7 @@
 
 - [batch_download_youtube](batch_download_youtube.py): 批量下载youtube链接
 
-- [batch_extract_audio_from_video](batch_extract_audio_from_video.py): 批量视频提取音频
+- [batch_extract_audio_from_video](batch_extract_audio_from_video.py): 批量从视频里提取音频
 
 - [batch_gif_to_video](batch_gif_to_video.py): 批量将gif转为mp4
 
@@ -37,6 +37,8 @@
 - [batch_rename](batch_rename.py): 批量重命名
 
 - [batch_replace_image_link](batch_replace_image_link.py): 批量替换文章里图片的链接，用来进行图床的迁移
+
+- [batch_resize_png](batch_resize_png.py): 批量将目录中的所有PNG图片缩小2倍
 
 - [batch_unzip](batch_unzip.py): 解压多个文件并删除压缩包
 
@@ -70,6 +72,10 @@
 
 - [project_sum](project_sum.py): 
 
+- [remove_md_img](remove_md_img.py): 去除指定 Markdown 文件中的所有图片
+
 - [swap_pdf_page](swap_pdf_page.py): 将pdf的第一页与最后一页互换
+
+- [wget](wget.py): 使用 requests 库实现类似 wget -i 的功能，自动处理重名文件
 
 - [word_count](word_count.py): 文件字数统计
