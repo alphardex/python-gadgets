@@ -38,7 +38,7 @@
 
 - [batch_replace_image_link](batch_replace_image_link.py): 批量替换文章里图片的链接，用来进行图床的迁移
 
-- [batch_resize_png](batch_resize_png.py): 批量将目录中的所有PNG图片缩小2倍
+- [batch_resize_png](batch_resize_png.py): 批量将目录中的所有PNG图片缩小一定倍数
 
 - [batch_unzip](batch_unzip.py): 解压多个文件并删除压缩包
 
@@ -55,6 +55,8 @@
 - [css_to_xpath](css_to_xpath.py): 将css转换为xpath，并自动复制进剪贴板，配合Xpath Helper插件直接爬网页
 
 - [extract_pdf](extract_pdf.py): 从pdf中提取一定页数
+
+- [extract_pdf_all_texts](extract_pdf_all_texts.py): 提取PDF所有文字
 
 - [gen_index](gen_index.py): 用来自动生成这篇README.md
 
